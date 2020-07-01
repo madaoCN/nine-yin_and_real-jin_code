@@ -1,0 +1,82 @@
+# cycript -p Preferences
+cy# UIApp.keyWindow.recursiveDescription().toString()
+`<UIWindow: 0x11fe28c80; frame = (0 0; 320 568); autoresize = H; tintColor = UIExtendedSRGBColorSpace 0 0.478431 1 1; gestureRecognizers = <NSArray: 0x174243db0>; layer = <UIWindowLayer: 0x1742219e0>>
+   | <UILayoutContainerView: 0x11fd49860; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x17022b3c0>>
+   |    | <UIView: 0x11fe38d50; frame = (0 0; 320 0); layer = <CALayer: 0x174227f20>>
+   |    | <UILayoutContainerView: 0x11fd45690; frame = (0 0; 320 568); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x174055360>; layer = <CALayer: 0x17022e0c0>>
+   |    |    | <UINavigationTransitionView: 0x11fd45840; frame = (0 0; 320 568); clipsToBounds = YES; autoresize = W+H; layer = <CALayer: 0x170226a40>>
+   |    |    |    | <UIViewControllerWrapperView: 0x11fd00020; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x170223ec0>>
+   |    |    |    |    | <UILayoutContainerView: 0x11fe23a00; frame = (0 0; 320 568); autoresize = W+H; gestureRecognizers = <NSArray: 0x17445b990>; layer = <CALayer: 0x17422ef20>>
+   |    |    |    |    |    | <UINavigationTransitionView: 0x11fe57020; frame = (0 0; 320 568); clipsToBounds = YES; autoresize = W+H; layer = <CALayer: 0x17422dde0>>
+   |    |    |    |    |    |    | <UIViewControllerWrapperView: 0x11fd7fb50; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x1702308e0>>
+   |    |    |    |    |    |    |    | <PSListContainerView: 0x11fd80af0; frame = (0 0; 320 568); autoresize = W+H; layer = <CALayer: 0x17022b320>>
+   |    |    |    |    |    |    |    |    | <UITableView: 0x1208d0000; frame = (0 0; 320 568); autoresize = W+H; gestureRecognizers = <NSArray: 0x1746427c0>; layer = <CALayer: 0x174236ec0>; contentOffset: {0, -63.5}; contentSize: {320, 979.5}>
+   |    |    |    |    |    |    |    |    |    | <UITableViewWrapperView: 0x120884200; frame = (0 0; 320 504); gestureRecognizers = <NSArray: 0x174642790>; layer = <CALayer: 0x174236de0>; contentOffset: {0, 0}; contentSize: {320, 504}>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x120887400; baseClass = UITableViewCell; frame = (0 475; 320 45); text = 'Carrier'; autoresize = W; tag = 4; layer = <CALayer: 0x174239f40>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7e680; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x17424a140>; layer = <CALayer: 0x174239f60>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7e980; frame = (15 12; 52.5 20.5); text = 'Carrier'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740981f0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7ec10; frame = (197 12; 108 20.5); text = '\u4e2d\u56fd\u79fb\u52a8 26.0'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174098290>>
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | <_UILabelContentLayer: 0x17423b0e0> (layer)
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe920c0; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x17423b080>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x120886e00; baseClass = UITableViewCell; frame = (0 430; 320 45); text = 'Version'; autoresize = W; tag = 4; layer = <CALayer: 0x174239cc0>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7d880; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x174441cb0>; layer = <CALayer: 0x174239ce0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7db80; frame = (15 12; 57 20.5); text = 'Version'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740980b0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7de10; frame = (192 12; 113 20.5); text = '10.1.1 (14B100)'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174098150>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe7e4c0; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174036540>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x120886800; baseClass = UITableViewCell; frame = (0 385; 320 45); text = 'Available'; autoresize = W; tag = 4; layer = <CALayer: 0x174239a00>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7cac0; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x174444a10>; layer = <CALayer: 0x174239a20>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7cdc0; frame = (15 12; 67.5 20.5); text = 'Available'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097f70>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7d050; frame = (246 12; 59 20.5); text = '4.12 GB'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174098010>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe7d6c0; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174239c40>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x1208d5e00; baseClass = UITableViewCell; frame = (0 340; 320 45); text = 'Capacity'; autoresize = W; tag = 4; layer = <CALayer: 0x174239740>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7bd40; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x174447050>; layer = <CALayer: 0x174239760>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7c040; frame = (15 12; 67.5 20.5); text = 'Capacity'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097de0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7c2d0; frame = (235.5 12; 69.5 20.5); text = '12.09 GB'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097e80>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe7c900; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174239980>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x1208d5800; baseClass = UITableViewCell; frame = (0 295; 320 45); text = 'Applications'; autoresize = W; tag = 4; layer = <CALayer: 0x174239480>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7b000; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x174447b00>; layer = <CALayer: 0x1742394a0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7b300; frame = (15 12; 94.5 20.5); text = 'Applications'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097ca0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7b590; frame = (284 12; 21 20.5); text = '60'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097d40>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe7bb80; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x1742396c0>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x1208d5200; baseClass = UITableViewCell; frame = (0 250; 320 45); text = 'Photos'; autoresize = W; tag = 4; layer = <CALayer: 0x1742391e0>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe7a300; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x174449cf0>; layer = <CALayer: 0x174239200>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7a600; frame = (15 12; 54 20.5); text = 'Photos'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097b60>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe7a890; frame = (284 12; 21 20.5); text = '58'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097c00>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe7ae40; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174239420>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x1208d3200; baseClass = UITableViewCell; frame = (0 205; 320 45); text = 'Videos'; autoresize = W; tag = 4; layer = <CALayer: 0x174238f20>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe79730; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x17444b130>; layer = <CALayer: 0x174238f40>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe79c00; frame = (15 12; 52.5 20.5); text = 'Videos'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097a20>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe79e90; frame = (294.5 12; 10.5 20.5); text = '0'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097ac0>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe79a30; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174239160>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x1208d2c00; baseClass = UITableViewCell; frame = (0 160; 320 45); text = 'Songs'; autoresize = W; tag = 4; layer = <CALayer: 0x174238c40>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe5a780; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x17444af20>; layer = <CALayer: 0x174238c60>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe79050; frame = (15 12; 48.5 20.5); text = 'Songs'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740978e0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe792e0; frame = (294.5 12; 10.5 20.5); text = '0'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097980>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe79570; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174238e80>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x12088a400; baseClass = UITableViewCell; frame = (0 115; 320 45); text = 'Network'; autoresize = W; tag = 4; layer = <CALayer: 0x1742384a0>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe46320; frame = (0 0; 320 44.5); gestureRecognizers = <NSArray: 0x17445a4f0>; layer = <CALayer: 0x174238a00>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe675a0; frame = (15 12; 64.5 20.5); text = 'Network'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740977a0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe67830; frame = (205.5 12; 99.5 20.5); text = 'Not Available'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097840>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe2ba20; frame = (15 44.5; 305 0.5); layer = <CALayer: 0x174238b60>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe5a5c0; frame = (0 0; 320 0.5); layer = <CALayer: 0x174238bc0>>
+   |    |    |    |    |    |    |    |    |    |    | <PSTableCell: 0x120889e00; baseClass = UITableViewCell; frame = (0 35; 320 45); text = 'Name'; autoresize = W; tag = 2; layer = <CALayer: 0x174238700>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UITableViewCellContentView: 0x11fe76510; frame = (0 0; 287 44.5); gestureRecognizers = <NSArray: 0x1744568c0>; layer = <CALayer: 0x1742387c0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe76810; frame = (15 12; 45 20.5); text = 'Name'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x174097610>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UITableViewLabel: 0x11fe76aa0; frame = (160.5 12; 124.5 20.5); text = 'exchen's iPhone'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740976b0>>
+   |    |    |    |    |    |    |    |    |    |    |    | <UIButton: 0x11fe76d30; frame = (297 16; 8 13); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1742381e0>>
+   |    |    |    |    |    |    |    |    |    |    |    |    | <UIImageView: 0x11fe556d0; frame = (0 0; 8 13); clipsToBounds = YES; opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x174238280>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe45fa0; frame = (0 44.5; 320 0.5); layer = <CALayer: 0x174238900>>
+   |    |    |    |    |    |    |    |    |    |    |    | <_UITableViewCellSeparatorView: 0x11fe46160; frame = (0 0; 320 0.5); layer = <CALayer: 0x174238440>>
+   |    |    |    |    |    |    |    |    |    | <UIImageView: 0x11fe74540; frame = (3 499; 314 2.5); alpha = 0; opaque = NO; autoresize = TM; userInteractionEnabled = NO; layer = <CALayer: 0x174230c40>>
+   |    |    |    |    |    |    |    |    |    | <UIImageView: 0x11fe74720; frame = (314.5 3.5; 2.5 271); alpha = 0; opaque = NO; autoresize = LM; userInteractionEnabled = NO; layer = <CALayer: 0x17422e7c0>>
+   |    |    | <UINavigationBar: 0x11fd362c0; frame = (0 20; 320 44); opaque = NO; autoresize = W; gestureRecognizers = <NSArray: 0x17025c2f0>; layer = <CALayer: 0x17022e180>>
+   |    |    |    | <_UIBarBackground: 0x11fd45a40; frame = (0 -20; 320 64); userInteractionEnabled = NO; layer = <CALayer: 0x17022e1c0>>
+   |    |    |    |    | <UIImageView: 0x11fe24db0; frame = (0 64; 320 0.5); userInteractionEnabled = NO; layer = <CALayer: 0x1742239a0>>
+   |    |    |    |    | <UIVisualEffectView: 0x11fe22080; frame = (0 0; 320 64); layer = <CALayer: 0x174224920>>
+   |    |    |    |    |    | <_UIVisualEffectBackdropView: 0x11fd401f0; frame = (0 0; 320 64); autoresize = W+H; userInteractionEnabled = NO; layer = <UICABackdropLayer: 0x170226d40>>
+   |    |    |    |    |    | <_UIVisualEffectFilterView: 0x11fd41bc0; frame = (0 0; 320 64); autoresize = W+H; userInteractionEnabled = NO; layer = <CALayer: 0x17022b8e0>>
+   |    |    |    | <<UINavigationItemView: 0x11fe74a10; frame = (136 8; 48.5 27); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1742312a0>>: item=<<UINavigationItem: 0x1741cd2f0>: title:'About'> title=About>
+   |    |    |    |    | <UILabel: 0x11fe74bf0; frame = (0 3.5; 48.5 21.5); text = 'About'; opaque = NO; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740971b0>>
+   |    |    |    | <<UINavigationItemButtonView: 0x11fe74fb0; frame = (8 6; 79 30); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x174231240>>: item=<<UINavigationItem: 0x1741cc300>: title:'General'> title=General>
+   |    |    |    |    | <UILabel: 0x11fe753d0; frame = (19 5.5; 60 21.5); text = 'General'; opaque = NO; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1740972a0>>
+   |    |    |    | <_UINavigationBarBackIndicatorView: 0x11fd43e30; frame = (8 11.5; 13 21); opaque = NO; userInteractionEnabled = NO; layer = <CALayer: 0x1702268a0>>`

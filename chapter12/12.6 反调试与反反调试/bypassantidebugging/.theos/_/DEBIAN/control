@@ -1,0 +1,10 @@
+Package: net.exchen.bypass-antidebugging
+Name: bypass-antidebugging
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: exchen
+Author: exchen
+Section: Tweaks
+Version: 0.0.1-7+debug
+Installed-Size: 120

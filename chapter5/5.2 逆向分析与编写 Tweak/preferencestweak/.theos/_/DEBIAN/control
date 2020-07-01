@@ -1,0 +1,10 @@
+Package: net.exchen.preferencestweak
+Name: preferencestweak
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: exchen
+Author: exchen
+Section: Tweaks
+Version: 0.0.1-39+debug
+Installed-Size: 124

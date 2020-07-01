@@ -1,0 +1,9 @@
+{
+	Filter = {
+		Bundles = (
+			"com.iki.MyIDFA",
+			"com.apple.Preferences",
+			"com.sanfriend.ios.iDeviceLite",
+		);
+	};
+}
